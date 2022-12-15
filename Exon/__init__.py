@@ -327,7 +327,7 @@ pgram = Client(
     api_hash=API_HASH,
     bot_token=TOKEN,
 )
-print("[EXON ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴇxᴏɴ sᴇʀᴠᴇʀ")
+print("[MICEL]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴍɪᴄᴇʟ sᴇʀᴠᴇʀ")
 
 
 print("[INFO]: ɪɴɪᴛɪᴀʟᴢɪɴɢ ᴀɪᴏʜᴛᴛᴘ sᴇssɪᴏɴ")
@@ -335,10 +335,10 @@ aiohttpsession = ClientSession()
 # ARQ Client
 print("[INFO]: ɪɴɪᴛɪᴀʟɪᴢɪɴɢ ᴀʀǫ ᴄʟɪᴇɴᴛ")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
-print("[ᴇxᴏɴ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴇxᴏɴ • PostgreSQL ᴅᴀᴛᴀʙᴀsᴇ")
+print("[ᴍɪᴄᴇʟ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴍɪᴄᴇʟ • PostgreSQL ᴅᴀᴛᴀʙᴀsᴇ")
 # ubot = TelegramClient(StringSession(STRING_SESSION), APP_ID, APP_HASH)
 ubot = None  # ENJOY
-print("[ᴇxᴏɴ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴇxᴏɴ • ᴜsᴇʀʙᴏᴛ (t.me/AbishnoiMF)")
+print("[ᴍɪᴄᴇʟ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴍɪᴄᴇʟ • ᴜsᴇʀʙᴏᴛ (t.me/AbishnoiMF)")
 
 
 timeout = httpx.Timeout(40)

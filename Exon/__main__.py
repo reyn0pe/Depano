@@ -107,7 +107,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-HELP_MSG = "ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇɴᴜ ɪi~"
+HELP_MSG = "ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇɴᴜ ɪ~"
 START_MSG = "* I ᴀᴍ ᴡᴇʟʟ ᴀɴᴅ ᴀʟɪᴠᴇ ;)"
 
 
@@ -117,7 +117,7 @@ PM_START_TEX = """
 
 PM_START_TEXT = """
 *ʜᴇʟʟᴏ {} !*
-ᴇxᴏɴ ʀᴏʙᴏᴛ ɪꜱ ᴀ 
+ᴍɪᴄᴇʟ ʀᴏʙᴏᴛ ɪꜱ ᴀ 
 ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
 ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ
 ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
@@ -125,7 +125,7 @@ PM_START_TEXT = """
   ⍟  *ᴜᴘᴛɪᴍᴇ :* `{}` 
   ⍟  *ᴜsᴇʀs :* `{}`
   ⍟  *ᴄʜᴀᴛs :* `0{}`
-━━━━━━━ *ᴇxᴏɴ* ━━━━━━━ 
+━━━━━━━ *ᴍɪᴄᴇʟ* ━━━━━━━ 
    
 """
 
@@ -139,24 +139,24 @@ I'm ᴀᴍ  ᴀʟɪᴠᴇ  ʙᴀʙʏ !
 buttons = [
     [
         InlineKeyboardButton(
-            text="❣ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"
+            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"
         ),
     ],
     [
-        InlineKeyboardButton(text=f"🚁 ʜᴇʟᴘ 🚁", callback_data="help_back"),
+        InlineKeyboardButton(text=f"ʜᴇʟᴘ", callback_data="help_back"),
         InlineKeyboardButton(
-            text=f"🎧 ᴍᴜsɪᴄ 🎧", callback_data="settings_back_helper"
+            text=f"ᴍᴜsɪᴄ", callback_data="settings_back_helper"
         ),  # THIS BUTTON WORKING IF YOU DEPLOY ANON X MUSIC ON THIS SMAE BOT REPO LINK (http://github.com/TheAnonymous2005/AnonXMusic)
     ],
     [
-        InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡", callback_data="about_"),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="about_"),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
 
 HELP_STRINGS = """
-━━━━━━━ᴇxᴏɴ━━━━━━━
+━━━━━━━ᴍɪᴄᴇʟ━━━━━━━
 ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ
 ɢᴇᴛ ᴜꜱᴀɢᴇ ᴏꜰ ꜱᴘᴇᴄɪꜰɪᴄꜱ ᴄᴏᴍᴍᴀɴᴅ
 ━━━━━━━━━━━━━━━━━
@@ -719,7 +719,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1452219013 and DONATION_LINK:
+        if OWNER_ID != 5691114711 and DONATION_LINK:
             update.effective_message.reply_text(
                 f"ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ the ᴘᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
